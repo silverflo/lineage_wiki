@@ -91,7 +91,7 @@ python sdat2img/sdat2img.py vendor.transfer.list vendor.new.dat vendor.img
 If you have a file named `vendor.img`, or similar, you can mount them as follows:
 
 ```
-sudo rm system/vendor
+sudo rmdir system/vendor
 sudo mkdir system/vendor
 sudo mount vendor.img system/vendor/
 ```
